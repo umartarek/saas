@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-05 13:14:01.104395",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "website",
+  "expiry_date",
+  "time_left"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "link_filters": "[]",
+   "options": "Site Management"
+  },
+  {
+   "fetch_from": "company.entry_date",
+   "fieldname": "website",
+   "fieldtype": "Date",
+   "label": "Entry Date",
+   "link_filters": "[]"
+  },
+  {
+   "fetch_from": "company.expiry_date",
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "link_filters": "[]"
+  },
+  {
+   "fieldname": "time_left",
+   "fieldtype": "Data",
+   "label": "Time Left"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-05 13:20:41.761437",
+ "modified_by": "Administrator",
+ "module": "Utilities",
+ "name": "Subscription",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
