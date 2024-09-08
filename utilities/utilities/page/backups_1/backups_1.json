@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2024-09-05 15:45:47.192215",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-09-05 15:47:02.445751",
+ "modified_by": "Administrator",
+ "module": "Utilities",
+ "name": "backups-1",
+ "owner": "Administrator",
+ "page_name": "backups-1",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Backups"
+}
